@@ -37,3 +37,31 @@ for numbers in a:
     print(a[:5])
 
 
+
+#append
+a=[45,23,56,89,42,12,56]
+a.append(90)
+print(a)
+#extend
+a=[45,23,56,89,42,12,56]
+a.extend([90, 89])
+print(a)
+#insert
+a=[45,23,56,89,42,12,56]
+a.insert(2,10)
+print(a)
+#remove
+a=[45,23,56,89,42,12,56]
+a.remove(45)
+print(a)
+#pop()
+a=[45,23,56,89,42,12,56]
+a.pop()
+print(a)
+#clear()
+c=['red' , 'yellow' , 'white']
+c.clear()
+print(c)
+#index()
+c=['red
+
